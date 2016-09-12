@@ -84,10 +84,8 @@ class Maze:
             for line in result_graph:
                 print(''.join(line), file=f)
 
-
-
 if __name__ == '__main__':
-    mz = Maze('bigMaze.txt')
+    mz = Maze('mediumMaze.txt')
     mz.printgraph(mz.dfs())
 
 
